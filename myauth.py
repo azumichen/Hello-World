@@ -5,7 +5,7 @@ import twitter
 def get_my_api():
     """
     Get the Twitter API, already authorized by Twitter.
-
+    
     This function is probably not very secure.
     """
 
@@ -34,5 +34,4 @@ if __name__ == "__main__":
     print(json.dumps(us_trends, indent=1))
     print()
     print(twitter_api)
-
 
